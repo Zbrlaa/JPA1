@@ -1,4 +1,4 @@
-package com.example.jpa.tps.tp_jakarta;
+package com.example.jpa.tps.TPJPA1;
 
 import jakarta.persistence.*;
 
