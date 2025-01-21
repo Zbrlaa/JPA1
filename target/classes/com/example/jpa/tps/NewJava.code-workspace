@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../../.."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"Java/TP1/premierprogramme/src",
+			"Java/MyMinimalApp/src/main/java/fr/univtln/bruno/samples"
+		],
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
