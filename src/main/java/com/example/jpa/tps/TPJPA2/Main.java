@@ -23,6 +23,23 @@ public class Main {
 		Artist foundArtist = em.find(Artist.class, ar1.getId());
 		System.out.println("Artist found: " + foundArtist.getName());
 
+		/*
+		em.getTransaction().begin();
+		em.createQuery("DELETE FROM Album").executeUpdate();
+		em.createQuery("DELETE FROM Artist").executeUpdate();
+		em.getTransaction().commit();
+		*/
+
+		/*
+		em.getTransaction().begin();
+		Album albumToDelete = em.find(Album.class, al1.getId());
+		if (albumToDelete != null) {
+			em.remove(albumToDelete);
+			System.out.println("Album supprimé : " + albumToDelete.getTitle());
+		}
+		em.getTransaction().commit();
+		*/
+		
 		em.close();
 		JpaUtil.close();
 	}
